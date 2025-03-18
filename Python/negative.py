@@ -15,4 +15,4 @@ numb = list(map(int, input("Enter a list of numbers separated by spaces: ").spli
 result = [convert(num1) for num1 in numb]
 
 # Display the result
-print(f"Converted list: {result}")
+print(result)
