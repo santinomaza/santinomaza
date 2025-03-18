@@ -15,4 +15,4 @@ numbers = list(map(int, input("Enter a list of numbers separated by spaces: ").s
 result = [convert_number(num) for num in numbers]
 
 # Display the result
-print(f"Converted list: {result}")
+print(result)
