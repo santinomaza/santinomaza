@@ -9,7 +9,7 @@ def convert(num):
         return num  # Keeps negative numbers and zero unchanged
 
 # Request a list of numbers from the user
-numb = list(map(int, input("Enter a list of numbers separated by spaces: ").split()))
+numb = int(input("Enter a list of numbers separated by spaces: "))
 
 # Apply the conversion to each number in the list
 result = [convert(num1) for num1 in numb]
