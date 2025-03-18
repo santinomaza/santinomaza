@@ -15,4 +15,4 @@ input_number = int(input("Enter a number: "))
 result = process_number(input_number)
 
 # Display the result
-print(f"The result is: {result}")
+print(result)
