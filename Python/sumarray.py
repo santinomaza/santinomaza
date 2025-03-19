@@ -1,8 +1,6 @@
-def convert(num):
-    if num > 0:
-        return -num  
-    else:
-        return num
-test_num = [1, -5, 0]
-for num in test_num:
-    print(f"Input: {num} -> Output: {convert(num)}")
+def sum_array(nums):
+    sumt = sum(nums)
+    return sumt
+my_array = [1,22,-43,4,5]
+result = sum_array(my_array)
+print(f"Sum of array os: {result}")
