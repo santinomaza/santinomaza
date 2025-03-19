@@ -1,6 +1,8 @@
-def sumarray(nums):
-    sumt = sum(nums)
-    return sumt
-myarray = [1,6-2,3.8,-4,5]
-result = sumarray(myarray)
-print(result)
+def convert(num):
+    if num > 0:
+        return -num  
+    else:
+        return num
+test_num = [1, -5, 0]
+for num in test_num:
+    print(f"Input: {num} -> Output: {convert(num)}")
