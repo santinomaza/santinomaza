@@ -5,14 +5,13 @@ def verify_card_number(card_number):
 
     for digit in odd_digits:
         sum_of_odd_digits += int(digit)
-
-    sum_of_even_digits = 0
-    even_digits = card_number_reversed[1::2]
+        sum_of_even_digits = 0
+        even_digits = card_number_reversed[1::2]
     for digit in even_digits:
         number = int(digit) * 2
         if number >= 10:
             number = (number // 10) + (number % 10)
-        sum_of_even_digits += number
+    sum_of_even_digits += number
     total = sum_of_odd_digits + sum_of_even_digits
     #print(total)
     return total % 10 == 0
