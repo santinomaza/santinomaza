@@ -1,0 +1,18 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+
+# System files (Mac)
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Ignore temporary directories
+cs50sql/
+submit50/
