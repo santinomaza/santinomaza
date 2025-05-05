@@ -4,7 +4,7 @@
 variable "aws_region" {
   description = "AWS region"
   type        = string
-  default     = "us-east-1"
+  default     = "us-east-2"
 }
 
 variable "vpc_cidr_block" {
@@ -53,4 +53,16 @@ variable "instance_type" {
   description = "Instance type for EC2 instances"
   type        = string
   default     = "t2.micro"
+}
+
+variable "db_username" {
+  description   = "Database administrator username"
+  type          = string
+  sensitive  = true
+}
+
+variable "db_password" {
+  description = "Database adminmistrator password"
+  type        = string
+  sensitive = true
 }
