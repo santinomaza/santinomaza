@@ -54,7 +54,7 @@ resource "vault_aws_secret_backend_role" "admin" {
     {
       "Effect": "Allow",
       "Action": [
-        "iam:*", "ec2:*"
+        "iam:*"
       ],
       "Resource": "*"
     }
