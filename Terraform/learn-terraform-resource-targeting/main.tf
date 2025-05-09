@@ -12,7 +12,8 @@ provider "aws" {
 }
 
 resource "random_pet" "bucket_name" {
-  length    = 3
+  #lenght    = 5
+  length    = 5
   separator = "-"
   prefix    = "learning"
 }
@@ -38,15 +39,16 @@ resource "random_pet" "object_names" {
 
   length    = 5
   separator = "_"
-  prefix    = "learning"
+  #prefix    = "learning"
 }
 
 resource "aws_s3_object" "objects" {
   count = 4
 
-  acl          = "public-read"
+  #acl          = "public-read" This is happening because AWS has recently changed its S3 bucket policies to disable ACLs by default (since April 2023). Your code is trying to create objects with acl = "public-read", but the bucket is configured to not allow ACLs.
   key          = "${random_pet.object_names[count.index].id}.txt"
   bucket       = module.s3_bucket.s3_bucket_id
-  content      = "Example object #${count.index}"
+  #content      = "Example object #${count.index}"
+  content      = "Bucket object #${count.index}" 
   content_type = "text/plain"
 }
