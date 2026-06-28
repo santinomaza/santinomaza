@@ -50,16 +50,6 @@
 
 ---
 
-### 📂 Script para Procesar Archivos CSV
-
-**Script en Python para automatizar el análisis básico de archivos CSV.** Creado para acelerar la revisión de reportes de inventario, logs de sistemas o cualquier otro archivo estructurado.
-
-- **Funcionalidades:** Muestra primeras 5 líneas, identifica y suma columnas numéricas, genera resumen.
-- **Tecnologías:** Python 3.6+
-- **Repositorio:** [script-procesador-csv](https://github.com/santinomaza/script-procesador-csv)
-
----
-
 ## 🏢 Experiencia Profesional Relevante
 
 - **Consultor Funcional - Sistemas de Gestión (Jun 2025 – Feb 2026)**
