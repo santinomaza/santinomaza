@@ -75,7 +75,6 @@
 
 - **LinkedIn:** [https://www.linkedin.com/in/tu-perfil/](https://www.linkedin.com/in/tu-perfil/)
 - **Correo Electrónico:** ing.omarsantos@gmail.com
-- **Teléfono:** 669 163 8919
 
 ---
 
